@@ -1,0 +1,29 @@
+.heroSection {
+  padding: 147px 166px 222px;
+  background-image: url("../public/images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: 830px 78px;
+  background-size: 733px 482px;
+}
+.contentContainer {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.heading {
+  font-size: 79px;
+  line-height: 1.14em;
+  letter-spacing: -0.02em;
+  color: var(--color-neutral-very-dark-blue);
+  margin: 0;
+}
+
+.bodyText {
+  font-size: 22px;
+  line-height: 1.64em;
+  letter-spacing: 0.0025em;
+  color: var(--color-neutral-grayish-violet);
+  margin: 0;
+}

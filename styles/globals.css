@@ -11,6 +11,12 @@
   --color-neutral-dark-violet: hsl(260, 8%, 14%);
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;

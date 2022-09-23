@@ -6,6 +6,10 @@
   border: 0;
   color: white;
   cursor: pointer;
+  width: fit-content;
+  padding: 13px 40px;
+  border-radius: 30px;
+  font-size: 20px;
 }
 
 .primaryButton:hover {

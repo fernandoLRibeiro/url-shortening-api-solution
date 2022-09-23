@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import HeroSection from "../components/HeroSection";
 import PrimaryHeader from "../components/PrimaryHeader";
 import styles from "../styles/Home.module.css";
 
@@ -11,6 +12,9 @@ export default function Home() {
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
       <PrimaryHeader />
+      <main className={styles.main}>
+        <HeroSection />
+      </main>
     </div>
   );
 }
