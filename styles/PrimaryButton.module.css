@@ -1,0 +1,19 @@
+.primaryButton {
+  font: inherit;
+  font-weight: 700;
+  background-color: var(--color-primary-cyan);
+  outline: none;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  background-color: var(--color-secondary-light-cyan);
+}
+
+.signUp {
+  padding: 9px 24px;
+  font-size: 15px;
+  border-radius: 20px;
+}

@@ -1,0 +1,52 @@
+.primaryHeader {
+  display: flex;
+
+  margin-top: 48px;
+  margin-left: 167px;
+  margin-right: 164px;
+  align-items: center;
+  gap: 45px;
+}
+
+.headerNavigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.navLinksContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  width: 28%;
+  justify-content: space-between;
+}
+
+.navLink {
+  color: var(--color-neutral-grayish-violet);
+  font-size: 15px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: var(--color-neutral-dark-violet);
+}
+
+.navButtonsContainer {
+  display: flex;
+  gap: 38px;
+}
+
+.loginButton {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
