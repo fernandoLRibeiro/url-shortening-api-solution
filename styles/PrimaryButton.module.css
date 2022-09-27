@@ -6,7 +6,8 @@
   border: 0;
   color: white;
   cursor: pointer;
-  width: fit-content;
+  width: max-content;
+
   padding: 13px 40px;
   border-radius: 30px;
   font-size: 20px;
@@ -20,4 +21,10 @@
   padding: 9px 24px;
   font-size: 15px;
   border-radius: 20px;
+}
+
+.form {
+  padding: 17px 40px;
+  border-radius: 10px;
+  min-width: 188px;
 }

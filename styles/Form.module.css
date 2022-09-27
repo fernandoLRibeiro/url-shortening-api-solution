@@ -1,0 +1,29 @@
+.linkForm {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  padding: 52px 64px;
+  background-color: var(--color-primary-dark-violet);
+  align-items: center;
+  border-radius: 12px;
+  background-image: url("../public/images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  margin-top: -84px;
+  background-size: cover;
+}
+
+.linkInput {
+  width: 100%;
+  height: fit-content;
+  font-size: 20px;
+  font-family: inherit;
+  color: var(--color-neutral-very-dark-blue);
+  padding: 19px 32px 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.linkInput::placeholder {
+  color: var(--color-neutral-gray);
+}
