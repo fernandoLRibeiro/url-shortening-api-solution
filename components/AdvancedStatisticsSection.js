@@ -5,6 +5,7 @@ import styles from "../styles/AdvancedStatisticsSection.module.css";
 import Card from "./Card";
 import Form from "./Form";
 import PrimaryButton from "./PrimaryButton";
+import LinkItem from "./LinkItem";
 
 const AdvancedStatisticsSection = () => {
   const baseUrl = "https://api.shrtco.de/v2/shorten?url=";
@@ -43,12 +44,9 @@ const AdvancedStatisticsSection = () => {
       <Form handleSubmit={handleSubmit} error={error} />
 
       {links.length > 0 && (
-        <div>
+        <div className={styles.linkList}>
           {links.map((link) => (
-            <div>
-              <p>{link.originalLink}</p>
-              <p>{link.shortLink}</p>
-            </div>
+            <LinkItem linkObj={link} />
           ))}
         </div>
       )}

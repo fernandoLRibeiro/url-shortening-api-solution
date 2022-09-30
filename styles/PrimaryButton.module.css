@@ -28,3 +28,22 @@
   border-radius: 10px;
   min-width: 188px;
 }
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+
+  border-radius: 6px;
+  width: 103px;
+  height: 40px;
+}
+
+.copied {
+  background-color: var(--color-primary-dark-violet);
+}
+
+.copied:hover {
+  background-color: var(--color-primary-dark-violet);
+}
