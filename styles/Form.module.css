@@ -12,6 +12,11 @@
   background-size: cover;
 }
 
+.inputContainer {
+  position: relative;
+  width: 100%;
+}
+
 .linkInput {
   width: 100%;
   height: fit-content;
@@ -26,4 +31,22 @@
 
 .linkInput::placeholder {
   color: var(--color-neutral-gray);
+}
+
+.error {
+  outline: 3px solid var(--color-secondary-red);
+}
+
+.error::placeholder {
+  color: var(--color-secondary-red);
+}
+
+.errorText {
+  position: absolute;
+  content: "Please add a link";
+
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-secondary-red);
+  top: 88%;
 }
