@@ -26,7 +26,8 @@ const AdvancedStatisticsSection = () => {
           originalLink: data.result.original_link,
           shortLink: data.result.full_short_link,
         };
-        setLinks((prevState) => [...prevState, linkObject]);
+        setLinks([...links, linkObject]);
+        localStorage.setItem("links", JSON.stringify([...links, linkObject]));
       } catch (error) {
         setError(true);
         console.log(error);
@@ -36,8 +37,11 @@ const AdvancedStatisticsSection = () => {
   };
 
   useEffect(() => {
-    console.log(links);
-  }, [links]);
+    if (typeof localStorage !== undefined) {
+      const localStorageLinks = JSON.parse(localStorage.getItem("links"));
+      setLinks(localStorageLinks);
+    }
+  }, []);
 
   return (
     <section className={styles.container}>
