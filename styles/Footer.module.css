@@ -1,9 +1,65 @@
 .footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   background-color: var(--color-neutral-very-dark-blue);
   padding: 72px 163px;
+  color: white;
+  gap: 260px;
 }
 
 .logo {
   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
     hue-rotate(133deg) brightness(105%) contrast(101%);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.linkListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.linkListLabel {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-size: 18px;
+  letter-spacing: -0.04em;
+}
+
+.link:hover {
+  color: var(--color-primary-cyan);
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+}
+
+.socialIcon {
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(76%) saturate(457%)
+    hue-rotate(121deg) brightness(84%) contrast(92%);
 }
