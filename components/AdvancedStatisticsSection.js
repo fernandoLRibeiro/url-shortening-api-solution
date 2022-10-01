@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { v4 as uuid } from "uuid";
 
 import styles from "../styles/AdvancedStatisticsSection.module.css";
 import Card from "./Card";
@@ -39,7 +40,10 @@ const AdvancedStatisticsSection = () => {
   useEffect(() => {
     if (typeof localStorage !== undefined) {
       const localStorageLinks = JSON.parse(localStorage.getItem("links"));
-      setLinks(localStorageLinks);
+      console.log(localStorageLinks);
+      if (localStorageLinks != null) {
+        setLinks(localStorageLinks);
+      }
     }
   }, []);
 
@@ -47,10 +51,10 @@ const AdvancedStatisticsSection = () => {
     <section className={styles.container}>
       <Form handleSubmit={handleSubmit} error={error} />
 
-      {links.length > 0 && (
+      {links?.length > 0 && (
         <div className={styles.linkList}>
           {links.map((link) => (
-            <LinkItem linkObj={link} />
+            <LinkItem linkObj={link} key={uuid()} />
           ))}
         </div>
       )}
