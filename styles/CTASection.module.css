@@ -1,0 +1,19 @@
+.CTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background-color: var(--color-primary-dark-violet);
+  color: white;
+  padding: 56px;
+  background-image: url("../public/images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 38px;
+  margin: 0;
+  padding: 0;
+}
