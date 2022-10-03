@@ -50,3 +50,59 @@
   padding: 0;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .primaryHeader {
+    margin: 40px 24px 0;
+    justify-content: space-between;
+  }
+
+  .headerNavigation {
+    position: fixed;
+    width: unset;
+    inset: 96px 24px auto 100%;
+    width: 87.2vw;
+    flex-direction: column;
+    background-color: var(--color-primary-dark-violet);
+    color: white;
+    padding: 0 24px 40px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+  }
+
+  .open {
+    inset: 96px 24px auto;
+  }
+
+  .navLinksContainer {
+    flex-direction: column;
+    gap: 28px;
+    padding: 38px 0 32px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+
+  .navLink {
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: -0.03em;
+    color: white;
+  }
+
+  .navButtonsContainer {
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .loginButton {
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: -0.03em;
+    color: white;
+  }
+}

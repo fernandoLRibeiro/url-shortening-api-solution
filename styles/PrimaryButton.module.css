@@ -47,3 +47,12 @@
 .copied:hover {
   background-color: var(--color-primary-dark-violet);
 }
+
+@media screen and (max-width: 768px) {
+  .signUp {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    height: 48px;
+  }
+}
