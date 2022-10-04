@@ -55,4 +55,12 @@
     letter-spacing: -0.01em;
     height: 48px;
   }
+
+  .form {
+    width: 100%;
+    padding: unset;
+    height: 48px;
+    font-size: 18px;
+    line-height: 27px;
+  }
 }

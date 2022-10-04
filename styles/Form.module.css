@@ -50,3 +50,20 @@
   color: var(--color-secondary-red);
   top: 88%;
 }
+
+@media screen and (max-width: 768px) {
+  .linkForm {
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    background-image: url("../public/images/bg-shorten-mobile.svg");
+    background-size: auto;
+    background-position: top right;
+  }
+
+  .linkInput {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 16px 11px;
+  }
+}
