@@ -67,7 +67,8 @@
     color: white;
     padding: 0 24px 40px;
     border-radius: 10px;
-    transition: all 200ms ease-in;
+    transition: all 100ms ease-in;
+    z-index: 100;
   }
 
   .open {
@@ -79,7 +80,7 @@
     gap: 28px;
     padding: 38px 0 32px;
     text-align: center;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     width: 100%;
   }
 

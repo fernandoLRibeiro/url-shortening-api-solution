@@ -64,4 +64,31 @@
     margin-top: 24px;
     gap: 24px;
   }
+
+  .sectionHeader {
+    margin-top: 86px;
+  }
+
+  .heading {
+    font-size: 28px;
+    letter-spacing: 0.0275em;
+  }
+
+  .headerText {
+    font-size: 16px;
+    line-height: 1.75em;
+    letter-spacing: 0.004em;
+  }
+
+  .cardsContainer {
+    margin-top: 47px;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .breakline {
+    height: auto;
+    width: 8px;
+    inset: 44px 48.5%;
+  }
 }

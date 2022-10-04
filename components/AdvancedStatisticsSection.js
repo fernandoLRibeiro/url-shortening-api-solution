@@ -71,7 +71,7 @@ const AdvancedStatisticsSection = () => {
           image="../images/icon-brand-recognition.svg"
           heading="Brand Recognition"
           body="Boost your brand recognition with each click. Generic links don’t 
-  mean a thing. Branded links help instil confidence in your content."
+           mean a thing. Branded links help instil confidence in your content."
         />
         <Card
           image="../images/icon-detailed-records.svg"

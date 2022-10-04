@@ -59,6 +59,7 @@
     background-image: url("../public/images/bg-shorten-mobile.svg");
     background-size: auto;
     background-position: top right;
+    margin-top: -80px;
   }
 
   .linkInput {
