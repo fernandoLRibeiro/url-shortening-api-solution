@@ -27,3 +27,36 @@
   color: var(--color-neutral-grayish-violet);
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .heroSection {
+    background-size: 114%;
+    background-position: 38px 24px;
+    padding: 106% 24px 168px;
+  }
+
+  .contentContainer {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    align-items: inherit;
+    gap: 13px;
+  }
+
+  .heading {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .bodyText {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
