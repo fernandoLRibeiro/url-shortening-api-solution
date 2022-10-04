@@ -12,7 +12,10 @@ const LinkItem = ({ linkObj }) => {
 
   return (
     <div className={styles.linkItem}>
-      <p className={styles.link}>{linkObj.originalLink}</p>
+      <div className={styles.linkContainer}>
+        <p className={styles.link}>{linkObj.originalLink}</p>
+      </div>
+
       <div className={styles.lastHalf}>
         <p className={`${styles.link} ${styles.shortLink}`}>
           {linkObj.shortLink}

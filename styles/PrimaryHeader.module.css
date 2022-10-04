@@ -90,6 +90,10 @@
     color: white;
   }
 
+  .navLink:hover {
+    color: white;
+  }
+
   .navButtonsContainer {
     flex-direction: column;
     margin-top: 30px;

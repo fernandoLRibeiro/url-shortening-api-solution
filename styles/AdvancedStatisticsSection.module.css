@@ -59,4 +59,9 @@
   .container {
     padding: 0 24px 80px;
   }
+
+  .linkList {
+    margin-top: 24px;
+    gap: 24px;
+  }
 }

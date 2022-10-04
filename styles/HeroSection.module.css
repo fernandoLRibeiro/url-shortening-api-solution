@@ -30,9 +30,12 @@
 
 @media screen and (max-width: 768px) {
   .heroSection {
+    display: flex;
+    flex-direction: column;
     background-size: 114%;
     background-position: 38px 24px;
     padding: 106% 24px 168px;
+    align-items: center;
   }
 
   .contentContainer {
