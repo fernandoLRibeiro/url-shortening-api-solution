@@ -18,3 +18,16 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .CTA {
+    background-image: url("../public/images/bg-boost-mobile.svg");
+    gap: 16px;
+    padding: 96px 36px 90px;
+  }
+
+  .heading {
+    font-size: 28px;
+    letter-spacing: -0.0275em;
+  }
+}
