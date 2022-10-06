@@ -28,6 +28,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .heroSection {
+    padding: 147px 11% 222px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .heroSection {
     display: flex;

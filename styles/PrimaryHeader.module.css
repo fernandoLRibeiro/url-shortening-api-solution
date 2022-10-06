@@ -23,6 +23,7 @@
   list-style: none;
   width: 28%;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .navLink {
@@ -51,6 +52,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+  .primaryHeader {
+    margin: 48px 11% auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .primaryHeader {
     margin: 40px 24px 0;
@@ -61,7 +68,7 @@
     position: fixed;
     width: unset;
     inset: 96px 24px auto 100%;
-    width: 87.2vw;
+
     flex-direction: column;
     background-color: var(--color-primary-dark-violet);
     color: white;

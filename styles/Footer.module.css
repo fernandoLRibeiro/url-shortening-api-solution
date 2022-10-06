@@ -5,6 +5,7 @@
   background-color: var(--color-neutral-very-dark-blue);
   padding: 72px 163px;
   color: white;
+  gap: 1em;
 }
 
 .logo {
@@ -43,7 +44,9 @@
 
 .link {
   font-size: 18px;
-  letter-spacing: -0.04em;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  transition: all 100ms ease-in-out;
 }
 
 .link:hover {
@@ -57,9 +60,44 @@
 
 .socialIcon {
   cursor: pointer;
+  transition: all 100ms ease-in;
 }
 
 .socialIcon:hover {
   filter: brightness(0) saturate(100%) invert(76%) sepia(76%) saturate(457%)
     hue-rotate(121deg) brightness(84%) contrast(92%);
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 72px 11%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 46px;
+    padding: 56px 24px;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: inherit;
+    width: fit-content;
+    align-items: center;
+    gap: 38px;
+  }
+
+  .linkListContainer {
+    align-items: center;
+  }
+
+  .linkList {
+    align-items: center;
+  }
+
+  .socials {
+    margin-top: 47px;
+  }
 }

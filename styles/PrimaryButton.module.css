@@ -7,7 +7,7 @@
   color: white;
   cursor: pointer;
   width: max-content;
-
+  transition: all 100ms ease-in-out;
   padding: 13px 40px;
   border-radius: 30px;
   font-size: 20px;
