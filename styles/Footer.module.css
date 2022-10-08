@@ -3,7 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   background-color: var(--color-neutral-very-dark-blue);
-  padding: 72px 163px;
+  padding: 4.5rem 10.1875rem;
   color: white;
   gap: 1em;
 }
@@ -15,7 +15,7 @@
 
 .container {
   display: flex;
-  max-width: 731px;
+  max-width: 45.6875rem;
   width: 100%;
   justify-content: space-between;
 }
@@ -23,27 +23,28 @@
 .linkListContainer {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 1.3125rem;
 }
 
+/* heading4 */
 .linkListLabel {
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.01em;
 }
 
 .linkList {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 0.5625rem;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .link {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: -0.05em;
   transition: all 100ms ease-in-out;
@@ -55,7 +56,7 @@
 
 .socials {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .socialIcon {
@@ -70,15 +71,15 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    padding: 72px 11%;
+    padding: 4.5rem 11%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
-    gap: 46px;
-    padding: 56px 24px;
+    gap: 2.875rem;
+    padding: 3.5rem 1.5rem;
     align-items: center;
   }
 
@@ -86,7 +87,7 @@
     flex-direction: inherit;
     width: fit-content;
     align-items: center;
-    gap: 38px;
+    gap: 2.375rem;
   }
 
   .linkListContainer {
@@ -98,6 +99,6 @@
   }
 
   .socials {
-    margin-top: 47px;
+    margin-top: 2.9375rem;
   }
 }

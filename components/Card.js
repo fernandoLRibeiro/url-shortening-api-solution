@@ -8,8 +8,8 @@ const Card = ({ image, heading, body }) => {
         <img src={image} className={styles.icon} />
       </div>
       <div className={styles.textContainer}>
-        <h3 className={styles.heading}>{heading}</h3>
-        <p className={styles.bodyText}>{body}</p>
+        <h3 className="heading3">{heading}</h3>
+        <p className="bodyTextSm">{body}</p>
       </div>
     </div>
   );

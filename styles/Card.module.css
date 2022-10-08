@@ -1,11 +1,11 @@
 .card {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 0 32px 40px;
+  gap: 2rem;
+  padding: 0 2rem 2.5rem;
   background-color: white;
-  max-width: 350px;
-  border-radius: 8px;
+  max-width: 21.875rem;
+  border-radius: 0.5rem;
   position: relative;
   height: fit-content;
   z-index: 1;
@@ -13,58 +13,42 @@
 
 .iconContainer {
   display: flex;
-  height: 88px;
-  width: 88px;
+  height: 5.5rem;
+  width: 5.5rem;
   align-items: center;
   justify-content: center;
   background-color: var(--color-primary-dark-violet);
   border-radius: 100%;
-  margin-top: -44px;
+  margin-top: -2.75rem;
 }
 
 .textContainer {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-
-.heading {
-  margin: 0;
-  padding: 0;
-  font-size: 22px;
-  color: var(--color-neutral-very-dark-blue);
-  line-height: 32px;
-}
-
-.bodyText {
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-  line-height: 26px;
-  color: var(--color-neutral-grayish-violet);
+  gap: 1rem;
 }
 
 .card:nth-child(2) {
-  margin-top: 44px;
+  margin-top: 2.75rem;
 }
 
 .card:nth-child(3) {
-  margin-top: 88px;
+  margin-top: 5.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .card:nth-child(2) {
-    margin-top: 44px;
+    margin-top: 2.75rem;
   }
 
   .card:nth-child(3) {
-    margin-top: 44px;
+    margin-top: 2.75rem;
   }
 
   .card {
     align-items: center;
     text-align: center;
-    padding: 0 35px 39px;
-    margin-top: 44px;
+    padding: 0 2.1875rem 2.4375rem;
+    margin-top: 2.75rem;
   }
 }

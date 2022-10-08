@@ -3,31 +3,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
   background-color: var(--color-primary-dark-violet);
   color: white;
-  padding: 56px;
+  padding: 3.5rem;
   background-image: url("../public/images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
 
-.heading {
-  font-size: 38px;
-  margin: 0;
-  padding: 0;
+/* heading2 + color: white */
+.white {
+  color: inherit;
 }
 
 @media screen and (max-width: 768px) {
   .CTA {
     background-image: url("../public/images/bg-boost-mobile.svg");
-    gap: 16px;
-    padding: 96px 24px 90px;
-  }
-
-  .heading {
-    font-size: 28px;
-    letter-spacing: -0.0275em;
+    gap: 1rem;
+    padding: 6rem 1.5rem 5.625rem;
   }
 }

@@ -7,8 +7,8 @@ const HeroSection = () => {
     <section className={styles.heroSection}>
       <div className={styles.contentContainer}>
         <div className={styles.textContainer}>
-          <h1 className={styles.heading}>More than just shorter links</h1>
-          <p className={styles.bodyText}>
+          <h1 className="heading1">More than just shorter links</h1>
+          <p className="bodyTextLg">
             Build your brand’s recognition and get detailed insights on how your
             links are performing.
           </p>

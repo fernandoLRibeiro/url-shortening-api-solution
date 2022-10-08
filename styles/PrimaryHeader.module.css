@@ -1,11 +1,11 @@
 .primaryHeader {
   display: flex;
 
-  margin-top: 48px;
-  margin-left: 167px;
-  margin-right: 164px;
+  margin-top: 3rem;
+  margin-left: 10.4375rem;
+  margin-right: 10.25rem;
   align-items: center;
-  gap: 45px;
+  gap: 2.8125rem;
 }
 
 .headerNavigation {
@@ -28,7 +28,7 @@
 
 .navLink {
   color: var(--color-neutral-grayish-violet);
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin: 0;
   cursor: pointer;
 }
@@ -39,7 +39,7 @@
 
 .navButtonsContainer {
   display: flex;
-  gap: 38px;
+  gap: 2.375rem;
 }
 
 .loginButton {
@@ -54,38 +54,38 @@
 
 @media screen and (max-width: 1024px) {
   .primaryHeader {
-    margin: 48px 11% auto;
+    margin: 3rem 11% auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .primaryHeader {
-    margin: 40px 24px 0;
+    margin: 3rem 1.5rem 0;
     justify-content: space-between;
   }
 
   .headerNavigation {
     position: fixed;
     width: unset;
-    inset: 96px 24px auto 100%;
+    inset: 6rem 1.5rem auto 100%;
 
     flex-direction: column;
     background-color: var(--color-primary-dark-violet);
     color: white;
-    padding: 0 24px 40px;
-    border-radius: 10px;
+    padding: 0 1.5rem 2.5rem;
+    border-radius: 0.625rem;
     transition: all 100ms ease-in;
     z-index: 100;
   }
 
   .open {
-    inset: 96px 24px auto;
+    inset: 6rem 1.5rem auto;
   }
 
   .navLinksContainer {
     flex-direction: column;
-    gap: 28px;
-    padding: 38px 0 32px;
+    gap: 1.75rem;
+    padding: 2.375rem 0 2rem;
     text-align: center;
     border-bottom: 2px solid white;
     width: 100%;
@@ -93,7 +93,7 @@
 
   .navLink {
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.1875rem;
     letter-spacing: -0.03em;
     color: white;
   }
@@ -104,16 +104,16 @@
 
   .navButtonsContainer {
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     text-align: center;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
     width: 100%;
   }
 
   .loginButton {
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.1875rem;
     letter-spacing: -0.03em;
     color: white;
   }

@@ -60,8 +60,8 @@ const AdvancedStatisticsSection = () => {
       )}
 
       <header className={styles.sectionHeader}>
-        <h2 className={styles.heading}>Advanced Statistics</h2>
-        <p className={styles.headerText}>
+        <h2 className="heading2">Advanced Statistics</h2>
+        <p className="bodyTextMd">
           Track how your links are performing across the web with our advanced
           statistics dashboard.
         </p>

@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import AdvancedStatisticsSection from "../components/AdvancedStatisticsSection";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import PrimaryHeader from "../components/PrimaryHeader";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (

@@ -1,14 +1,14 @@
 .linkForm {
   width: 100%;
   display: flex;
-  gap: 24px;
-  padding: 52px 64px;
+  gap: 1.5rem;
+  padding: 3.25rem 4rem;
   background-color: var(--color-primary-dark-violet);
   align-items: center;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background-image: url("../public/images/bg-shorten-desktop.svg");
   background-repeat: no-repeat;
-  margin-top: -84px;
+  margin-top: -5.25rem;
   background-size: cover;
 }
 
@@ -20,13 +20,13 @@
 .linkInput {
   width: 100%;
   height: fit-content;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: inherit;
   color: var(--color-neutral-very-dark-blue);
-  padding: 19px 32px 15px;
+  padding: 1.1875rem 2rem 0.9375rem;
   outline: none;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .linkInput::placeholder {
@@ -53,30 +53,30 @@
 @media screen and (max-width: 768px) {
   .linkForm {
     flex-direction: column;
-    padding: 24px;
-    gap: 16px;
+    padding: 1.5rem;
+    gap: 1rem;
     background-image: url("../public/images/bg-shorten-mobile.svg");
     background-size: auto;
     background-position: top right;
-    margin-top: -80px;
+    margin-top: -5rem;
   }
 
   .inputContainer {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3125rem;
   }
 
   .errorText {
     position: static;
     margin: 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: -0.01em;
   }
 
   .linkInput {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 13px 16px 11px;
+    font-size: 1rem;
+    line-height: 2.5em;
+    padding: 0.8125rem 1rem 0.6875rem;
   }
 }
