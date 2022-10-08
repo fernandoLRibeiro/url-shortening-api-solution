@@ -61,7 +61,6 @@
 
 .socialIcon {
   cursor: pointer;
-  transition: all 100ms ease-in;
 }
 
 .socialIcon:hover {
