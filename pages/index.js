@@ -8,13 +8,13 @@ import PrimaryHeader from "../components/PrimaryHeader";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>URL Shortening API</title>
         <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
       <PrimaryHeader />
-      <main className={styles.main}>
+      <main>
         <HeroSection />
         <AdvancedStatisticsSection />
         <CTASection />
