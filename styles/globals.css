@@ -24,7 +24,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  width: 100vw;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -98,9 +98,6 @@ h4 {
   .heading2 {
     font-size: 1.75rem;
     letter-spacing: -0.0275em;
-  }
-
-  .heading3 {
   }
 
   .bodyTextLg {
