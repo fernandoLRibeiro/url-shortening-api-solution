@@ -19,7 +19,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <img className={styles.logo} src="/images/logo.svg" />
+      <img className={styles.logo} src="/images/logo.svg" alt="logo" />
       <div className={styles.container}>
         {footerLinks.map((item) => (
           <div className={styles.linkListContainer}>
@@ -41,21 +41,28 @@ const Footer = () => {
             <img
               className={styles.socialIcon}
               src="/images/icon-facebook.svg"
+              alt="facebook"
             />
           </a>
           <a className={styles.socialLink} href="https://twitter.com">
-            <img className={styles.socialIcon} src="/images/icon-twitter.svg" />
+            <img
+              className={styles.socialIcon}
+              src="/images/icon-twitter.svg"
+              alt="twitter"
+            />
           </a>
           <a className={styles.socialLink} href="https://pinterest.com">
             <img
               className={styles.socialIcon}
               src="/images/icon-pinterest.svg"
+              alt="pinterest"
             />
           </a>
           <a className={styles.socialLink} href="https://instagram.com">
             <img
               className={styles.socialIcon}
               src="/images/icon-instagram.svg"
+              alt="instagram"
             />
           </a>
         </div>
