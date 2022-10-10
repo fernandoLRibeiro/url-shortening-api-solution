@@ -6,9 +6,9 @@
   background-color: var(--color-primary-dark-violet);
   align-items: center;
   border-radius: 0.75rem;
-  background-image: url("../public/images/bg-shorten-desktop.svg");
+  background-image: url(/_next/static/media/bg-shorten-desktop.56f99146.svg);
   background-repeat: no-repeat;
-  margin-top: -5.25rem;
+  margin-top: -5.35rem;
   background-size: cover;
 }
 
@@ -43,11 +43,10 @@
 
 .errorText {
   position: absolute;
-
   font-size: 1rem;
   font-style: italic;
   color: var(--color-secondary-red);
-  top: 88%;
+  top: 110%;
 }
 
 @media screen and (max-width: 768px) {

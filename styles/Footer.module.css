@@ -3,7 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   background-color: var(--color-neutral-very-dark-blue);
-  padding: 4.5rem 10.1875rem;
+  padding: 4.4rem 10.1875rem;
   color: white;
   gap: 1em;
 }
@@ -44,7 +44,7 @@
 }
 
 .link {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: -0.05em;
   transition: all 100ms ease-in-out;
@@ -57,6 +57,7 @@
 .socials {
   display: flex;
   gap: 1.5rem;
+  margin-top: 0.2rem;
 }
 
 .socialIcon {
