@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/url-shortening-api-landing-page-built-with-nextjs-7-K3uIJvxc)
 - [Live Site](https://url-shortening-api-solution.vercel.app/)
 
 ## My process
