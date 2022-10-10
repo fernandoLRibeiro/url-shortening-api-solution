@@ -58,6 +58,7 @@
 
   .sectionHeader {
     margin-top: 5.375rem;
+    gap: 1.1rem;
   }
 
   .cardsContainer {

@@ -53,8 +53,8 @@
   .linkForm {
     flex-direction: column;
     padding: 1.5rem;
-    gap: 1rem;
-    background-image: url("../public/images/bg-shorten-mobile.svg");
+    gap: 0.9rem;
+    background-image: url(/_next/static/media/bg-shorten-mobile.35460518.svg);
     background-size: auto;
     background-position: top right;
     margin-top: -5rem;
@@ -76,6 +76,7 @@
   .linkInput {
     font-size: 1rem;
     line-height: 2.5em;
-    padding: 0.8125rem 1rem 0.6875rem;
+    padding: 0.3rem 1rem 0.25rem;
+    border-radius: 4px;
   }
 }

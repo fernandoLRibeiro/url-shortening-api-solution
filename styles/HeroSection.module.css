@@ -22,9 +22,9 @@
   .heroSection {
     display: flex;
     flex-direction: column;
-    background-size: 114%;
-    background-position: 2.375rem 1.5rem;
-    padding: 106% 1.5rem 10.5rem;
+    background-size: 132%;
+    background-position: 1.675rem 2.4rem;
+    padding: 107% 1.5rem 10.5rem;
     align-items: center;
   }
 
@@ -32,7 +32,7 @@
     width: 100%;
     align-items: center;
     text-align: center;
-    gap: 1.875rem;
+    gap: 1.9rem;
   }
 
   .textContainer {
@@ -40,6 +40,6 @@
     flex-direction: column;
     flex-direction: center;
     align-items: inherit;
-    gap: 0.8125rem;
+    gap: 0.8rem;
   }
 }
