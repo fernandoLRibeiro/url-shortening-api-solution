@@ -6,7 +6,7 @@
   background-color: var(--color-primary-dark-violet);
   align-items: center;
   border-radius: 0.75rem;
-  background-image: url(/_next/static/media/bg-shorten-desktop.56f99146.svg);
+  background-image: url("/images/bg-shorten-desktop.svg");
   background-repeat: no-repeat;
   margin-top: -5.35rem;
   background-size: cover;
@@ -54,7 +54,7 @@
     flex-direction: column;
     padding: 1.5rem;
     gap: 0.9rem;
-    background-image: url(/_next/static/media/bg-shorten-mobile.35460518.svg);
+    background-image: url("/images/bg-shorten-mobile.svg");
     background-size: auto;
     background-position: top right;
     margin-top: -5rem;
