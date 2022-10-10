@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--color-neutral-very-dark-blue);
+  background-color: var(--color-neutral-dark-violet);
   padding: 4.4rem 10.1875rem;
   color: white;
   gap: 1em;
